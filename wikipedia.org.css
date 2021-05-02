@@ -13,7 +13,7 @@
   PERFORMANCE OF THIS SOFTWARE.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Red+Hat+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Raleway:wght@200&family=Red+Hat+Text&display=swap');
 @import url('https://fonts.cdnfonts.com/css/selawik');
 
 body {
@@ -21,6 +21,11 @@ body {
   font-size: 1.6rem;
   font-weight: 300;
   hyphens: auto;
+}
+
+pre {
+  font-family: 'Inconsolata', 'Ubuntu Mono', monospace;
+  font-size: .9em;
 }
 
 div#mw-panel {
