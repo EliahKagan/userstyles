@@ -7,7 +7,12 @@ body {
   font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', 'Ubuntu', sans-serif !important;
-  font-weight: 200 !important;
+h1, .mw-body h1, .mw-body-content h1,
+h2, .mw-body h2, .mw-body-content h2,
+h3, .mw-body h3, .mw-body-content h3,
+h4, .mw-body h4, .mw-body-content h4,
+h5, .mw-body h5, .mw-body-content h5,
+h6, .mw-body h6, .mw-body-content h6 {
+  font-family: 'Raleway', 'Ubuntu', sans-serif;
+  font-weight: 200;
 }
