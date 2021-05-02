@@ -18,8 +18,13 @@
 
 body {
   font-family: 'Selawik', 'Red Hat Text', 'Segoe UI', 'Ubuntu', sans-serif;
-  font-size: 1.45em;
+  font-size: 1.6rem;
   font-weight: 300;
+  hyphens: auto;
+}
+
+div.mw-body-content {
+  max-width: 52rem;
 }
 
 h1, .mw-body h1, .mw-body-content h1,
