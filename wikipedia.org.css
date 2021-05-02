@@ -58,6 +58,10 @@ h6, .mw-body h6, .mw-body-content h6 {
   letter-spacing: .05em;
 }
 
+.mw-body-content .toc h2 {
+  font-family: inherit;
+}
+
 strong,
 b,
 table.infobox>caption.infobox-title,
