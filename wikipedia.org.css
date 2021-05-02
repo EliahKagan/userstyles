@@ -23,8 +23,18 @@ body {
   hyphens: auto;
 }
 
+div#mw-panel {
+  max-width: 10rem;
+}
+
+div.mw-body {
+  margin: 0 auto;
+  margin-left: 11rem;
+}
+
 div.mw-body-content {
-  max-width: 52rem;
+  max-width: 52.5rem;
+  margin: 0 auto;
 }
 
 h1, .mw-body h1, .mw-body-content h1,
@@ -37,10 +47,30 @@ h6, .mw-body h6, .mw-body-content h6 {
   font-weight: 200;
 }
 
+.mw-body h1.firstHeading {
+  text-align: center;
+}
+
 h2, .mw-body h2, .mw-body-content h2,
 h3, .mw-body h3, .mw-body-content h3,
 h4, .mw-body h4, .mw-body-content h4,
 h5, .mw-body h5, .mw-body-content h5,
 h6, .mw-body h6, .mw-body-content h6 {
   letter-spacing: .05em;
+}
+
+strong,
+b,
+table.infobox>caption.infobox-title,
+table.infobox>tbody>tr>th.infobox-above,
+th.infobox-header,
+th.infobox-label,
+a.mw-selflink,
+.mw-ui-button,
+.mw-parser-output .module-shortcutboxplain>ul {
+  font-weight: 600;
+}
+
+td.infobox-subheader {
+  font-weight: 600 !important;
 }
