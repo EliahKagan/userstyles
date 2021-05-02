@@ -69,13 +69,19 @@ h6, .mw-body h6, .mw-body-content h6 {
 
 strong,
 b,
+dt,
 table.infobox>caption.infobox-title,
 table.infobox>tbody>tr>th.infobox-above,
+th,
 th.infobox-header,
 th.infobox-label,
+th.sidebar-heading,
 a.mw-selflink,
 .mw-ui-button,
-.mw-parser-output .module-shortcutboxplain>ul {
+.mw-parser-output .module-shortcutboxplain>ul,
+.mw-parser-output .sidebar-above,
+.mw-parser-output .sidebar-below,
+.mw-parser-output .sidebar-list-title {
   font-weight: 600;
 }
 
