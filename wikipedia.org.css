@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=IBM+Plex+Serif&family=Raleway:wght@200&family=Red+Hat+Text&family=Source+Serif+Pro&family=Spectral&family=Tinos&family=Ubuntu&display=swap');
+@import url('https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css');
+@import url('https://fonts.cdnfonts.com/css/cmu-serif');
+@import url('https://fonts.cdnfonts.com/css/latin-modern-roman');
+@import url('https://fonts.cdnfonts.com/css/selawik');
+
+body {
+  font-family: 'Selawik', 'Red Hat Text', 'Segoe UI', 'LMRomanDemi10', 'Century Schoolbook', 'CMU Serif', 'Computer Modern Serif', 'Alegreya', 'Liberation Serif', 'Times New Roman', 'Tinos', 'IBM Plex Serif', 'Source Serif Pro', 'Century Schoolbook', 'Spectral', serif;
+  font-size: 1.45em;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', 'Ubuntu', sans-serif !important;
+  font-weight: 200 !important;
+}
