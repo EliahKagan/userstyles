@@ -1,0 +1,44 @@
+/*
+  Copyright 2021 Eliah Kagan <degeneracypressure@gmail.com>
+
+  Permission to use, copy, modify, and/or distribute this software for any
+  purpose with or without fee is hereby granted.
+
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+  REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+  AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+  INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+  LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+  OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+  PERFORMANCE OF THIS SOFTWARE.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200;300&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+html {
+  font-size: 26px;
+}
+
+body {
+  background-color: #edd;
+  font-family: 'Crimson Pro', serif;
+  font-kerning: normal;
+  font-size: 1rem;
+  font-variant-ligatures: common-ligatures;
+  hyphens: auto;
+  line-height: 1.4;
+  max-width: 29rem;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+}
+
+pre, code {
+  background-color: aliceblue;
+  font-family: 'Source Code Pro', monospace;
+  font-size: .9rem;
+}
+
+table.nav small {
+  color: #444;
+  font-size: .6rem;
+}
