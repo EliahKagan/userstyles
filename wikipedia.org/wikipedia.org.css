@@ -1,0 +1,92 @@
+/*
+  Copyright 2021 Eliah Kagan <degeneracypressure@gmail.com>
+
+  Permission to use, copy, modify, and/or distribute this software for any
+  purpose with or without fee is hereby granted.
+
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+  REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+  AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+  INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+  LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+  OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+  PERFORMANCE OF THIS SOFTWARE.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Raleway:wght@200&family=Red+Hat+Text&display=swap');
+@import url('https://fonts.cdnfonts.com/css/selawik');
+
+body {
+  font-family: 'Selawik', 'Red Hat Text', 'Segoe UI', 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  hyphens: auto;
+}
+
+pre {
+  font-family: 'Inconsolata', 'Ubuntu Mono', monospace;
+  font-size: .9em;
+}
+
+div#mw-panel {
+  max-width: 10rem;
+}
+
+div.mw-body {
+  margin-left: 11rem;
+}
+
+div.mw-body-content {
+  max-width: 52.5rem;
+  margin: 0 auto;
+}
+
+h1, .mw-body h1, .mw-body-content h1,
+h2, .mw-body h2, .mw-body-content h2,
+h3, .mw-body h3, .mw-body-content h3,
+h4, .mw-body h4, .mw-body-content h4,
+h5, .mw-body h5, .mw-body-content h5,
+h6, .mw-body h6, .mw-body-content h6 {
+  font-family: 'Raleway', 'Ubuntu', sans-serif;
+  font-variant-ligatures: no-common-ligatures;
+  font-weight: 200;
+  letter-spacing: .05em;
+}
+
+.mw-body h1.firstHeading {
+  text-align: center;
+}
+
+h2, .mw-body h2, .mw-body-content h2,
+h3, .mw-body h3, .mw-body-content h3,
+h4, .mw-body h4, .mw-body-content h4,
+h5, .mw-body h5, .mw-body-content h5,
+h6, .mw-body h6, .mw-body-content h6 {
+  letter-spacing: .05em;
+}
+
+.mw-body-content .toc h2 {
+  font-family: inherit;
+}
+
+strong,
+b,
+dt,
+table.infobox>caption.infobox-title,
+table.infobox>tbody>tr>th.infobox-above,
+th,
+th.infobox-header,
+th.infobox-label,
+th.sidebar-heading,
+a.mw-selflink,
+.mw-ui-button,
+.mw-parser-output .module-shortcutboxplain>ul,
+.mw-parser-output .sidebar-above,
+.mw-parser-output .sidebar-below,
+.mw-parser-output .sidebar-list-title {
+  font-weight: 600;
+}
+
+td.infobox-subheader {
+  font-weight: 600 !important;
+}
