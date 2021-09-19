@@ -1,0 +1,110 @@
+/*
+  Copyright 2021 Eliah Kagan <degeneracypressure@gmail.com>
+
+  Permission to use, copy, modify, and/or distribute this software for any
+  purpose with or without fee is hereby granted.
+
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+  REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+  AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+  INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+  LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+  OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+  PERFORMANCE OF THIS SOFTWARE.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Source+Code+Pro&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cascadia-mono');
+@import url('https://fonts.cdnfonts.com/css/selawik');
+
+main {
+  font-family: 'Selawik', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  hyphens: auto;
+  line-height: 1.35;
+  margin: auto;
+  max-width: 32em;
+}
+
+main h1, main h2, main h3, main h4, main h5, main h6 {
+  hyphens: none;
+}
+
+main h1 {
+  font-family: 'Zilla Slab', 'Roboto Slab', 'Georgia', 'Times New Roman', 'Liberation Serif', serif;
+  font-weight: 500;
+  letter-spacing: .05em;
+}
+
+main.content h1 {
+  font-size: 40px;
+}
+
+main h2, main h3, main h4, main h5, main h6 {
+  border-bottom: 1px solid;
+  font-family: 'Raleway', 'Ubuntu', 'Open Sans Light', 'Open Sans', 'Roboto', 'Segoe UI', 'Selawik', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 200;
+  letter-spacing: .06em;
+  padding-bottom: .1em;
+  padding-top: .5em;
+}
+
+main p {
+  letter-spacing: .02em;
+}
+
+main li {
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
+
+main em strong {
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 400;
+  letter-spacing: .07em;
+}
+
+main a em strong {
+  letter-spacing: .05em;
+}
+
+main code {
+  font-family: 'Source Code Pro', 'Cascadia Mono', 'Consolas', monospace;
+  font-size: 19px;
+  letter-spacing: normal;
+}
+
+main pre code {
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+main ul.metadata.page-metadata {
+  font-size: .8em;
+}
+
+main table.table {
+  font-size: 19px;
+}
+
+main span.language {
+  font-size: 16px;
+}
+
+main button.action {
+  font-size: 14px;
+}
+
+main div.alert, main div.alert-title {
+  font-size: 22px;
+}
+
+div.left-container nav ul.tree {
+  font-size: 16px;
+}
+
+div.right-container .doc-outline li {
+  font-size: 16px;
+}
