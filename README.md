@@ -1,8 +1,8 @@
 # userstyles - some drafts of user styles
 
-These are some drafts of userstyles. They can be used with a user-style manager
-such as [Stylus](https://add0n.com/stylus.html). They may still have bugs. As
-of this writing, I haven&rsquo;t uploaded them to a userstyles-specific
+These are some drafts of user styles. They can be used with a user-style
+manager such as [Stylus](https://add0n.com/stylus.html). They may still have
+bugs. As of this writing, I haven&rsquo;t uploaded them to a user styles
 repository such as [userstyles.org](https://userstyles.org/).
 
 ## License
@@ -23,6 +23,7 @@ because:
 - New user styles, if any, are likely to go here.
 - It&rsquo;s a pain to deal with multiple separate gists that are all
   conceptually part of the same project.
-- Commits from the gists have been rebased to contain actual descriptions of
-  what they did. This is mostly valuable for the Wikipedia user style, since
-  the CSS itself (rather than the README) went through twelve commits.
+- Commits from the gists have been rebased so their commit messages describe
+  what they did. This is mostly valuable for the [Wikipedia user
+  style](wikipedia.org/), since the CSS itself (rather than the README) went
+  through twelve commits.
