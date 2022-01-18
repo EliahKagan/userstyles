@@ -15,12 +15,13 @@ with any of the sites these user styles are for.
 
 ## History
 
-Versions of these were originally posted as gists. They are probably still
-similar to those gists, but I recommend you use this repository instead,
-because:
+Versions of some of these were originally posted as gists. They are probably
+still similar to those gists, but I recommend you use this repository instead
+even for them, because:
 
 - Updates/bugfixes, if any, will go here.
-- New user styles, if any, are likely to go here.
+- New user styles go here (and it&rsquo;s easier not to look in different
+  places).
 - It&rsquo;s a pain to deal with multiple separate gists that are all
   conceptually part of the same project.
 - Commits from the gists have been rebased so their commit messages describe

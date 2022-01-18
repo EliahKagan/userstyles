@@ -1,0 +1,33 @@
+/*
+  Copyright 2022 Eliah Kagan <degeneracypressure@gmail.com>
+
+  Permission to use, copy, modify, and/or distribute this software for any
+  purpose with or without fee is hereby granted.
+
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+  REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+  AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+  INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+  LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+  OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+  PERFORMANCE OF THIS SOFTWARE.
+*/
+
+@import url('https://fonts.cdnfonts.com/css/cascadia-mono');
+@import url('https://fonts.cdnfonts.com/css/selawik');
+
+main {
+  font-family: 'Selawik', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  hyphens: auto;
+  line-height: 1.35;
+  margin: auto;
+  max-width: 32em;
+}
+
+main pre, main code {
+  font-family: 'Cascadia Mono', 'Source Code Pro', 'Consolas', monospace;
+  font-size: 19px;
+  letter-spacing: normal;
+}
