@@ -7,6 +7,7 @@
         "infobox",
         "Kagan",
         "matplotlib",
+        "norvig",
         "pytest",
         "rodsbooks",
         "Selawik",
@@ -15,5 +16,8 @@
         "sphinxsidebar",
         "userstyles",
         "Zilla"
+    ],
+    "cSpell.ignoreWords": [
+        "doesn"
     ]
 }
