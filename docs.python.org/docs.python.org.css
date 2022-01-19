@@ -1,0 +1,63 @@
+/*
+  Copyright 2022 Eliah Kagan <degeneracypressure@gmail.com>
+
+  Permission to use, copy, modify, and/or distribute this software for any
+  purpose with or without fee is hereby granted.
+
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+  REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+  AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+  INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+  LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+  OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+  PERFORMANCE OF THIS SOFTWARE.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cascadia-mono');
+@import url('https://fonts.cdnfonts.com/css/charis-sil');
+@import url('https://fonts.cdnfonts.com/css/selawik');
+
+div.sphinxsidebar, div.related {
+  font-family: 'Segoe UI', Selawik, Arial, sans-serif;
+}
+
+div.footer {
+  font-family: Verdana, 'Segoe UI', Selawik, Arial, sans-serif;
+}
+
+div.sphinxsidebar h1,
+div.sphinxsidebar h2,
+div.sphinxsidebar h3,
+div.sphinxsidebar h4,
+div.sphinxsidebar h5,
+div.sphinxsidebar h6 {
+  font-family: Selawik, 'Segoe UI', Arial, sans-serif;
+}
+
+div.body {
+  color: #333;
+  font-family: 'Miller Text', Georgia, 'Noto Serif', Charter, 'Charis SIL', Charis, 'Apparatus SIL', Apparatus, 'Libre Baskerville', serif;
+  font-size: 22px;
+}
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 {
+  font-family: Selawik, 'Segoe UI', sans-serif;
+  font-weight: 300;
+}
+
+div.body h2 {
+  border-bottom: 1px solid #333;
+}
+
+div.body p {
+  line-height: 1.5em;
+}
+
+div.body dt {
+  font-family: 'Verdana', 'Selawik', 'Segoe UI', Arial, sans-serif;
+}
+
+div.body pre, div.body code, div.body .sig-param {
+  font-family: 'Cascadia Mono', Consolas, monospace;
+}
