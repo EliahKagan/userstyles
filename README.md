@@ -10,8 +10,20 @@ repository such as [userstyles.org](https://userstyles.org/).
 This repository is licensed under [0BSD](https://spdx.org/licenses/0BSD.html).
 See [**`LICENSE`**](LICENSE).
 
-By the way, as is usually the case with user styles, I&rsquo;m *not* affiliated
-with any of the sites these user styles are for.
+This is a [very
+permissive](https://en.wikipedia.org/wiki/Public-domain-equivalent_license)
+license, which does not even require that you retain the copyright notices.
+Usually there is no benefit to removing them, even when permitted, but in the
+case of stylesheets, you might prefer not to have the added cruft. If for
+whatever reason you don&rsquo;t want those comments at the top of the style
+sheets, feel free to remove them (as the license itself already permits). For
+your convenience in doing so, there is a `no-license-comments` branch where
+they are removed. (Note that they have no effect on what is rendered&mdash;they
+do not appear in pages or anything, they&rsquo;re just inert comments at the
+top of the CSS code itself.)
+
+By the way, as is usually the case with user styles, **I&rsquo;m *not*
+affiliated with any of the sites these user styles are for**.
 
 ## History
 
