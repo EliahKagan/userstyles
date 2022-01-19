@@ -18,9 +18,9 @@ case of stylesheets, you might prefer not to have the added cruft. If for
 whatever reason you don&rsquo;t want those comments at the top of the style
 sheets, feel free to remove them (as the license itself already permits). For
 your convenience in doing so, there is a `no-license-comments` branch where
-they are removed. (Note that they have no effect on what is rendered&mdash;they
-do not appear in pages or anything, they&rsquo;re just inert comments at the
-top of the CSS code itself.)
+they are removed. **This is that branch.** (Note that they have no effect on
+what is rendered&mdash;they do not appear in pages or anything, they&rsquo;re
+just inert comments at the top of the CSS code itself.)
 
 By the way, as is usually the case with user styles, **I&rsquo;m *not*
 affiliated with any of the sites these user styles are for**.
