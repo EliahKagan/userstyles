@@ -1,4 +1,4 @@
-**rough draft of user style for [Microsoft Docs](https://learn.microsoft.com)
+**rough draft of user style for [Microsoft Learn](https://learn.microsoft.com)
 readability** (can be applied via Stylus or Stylish)
 
 This supersedes [that
